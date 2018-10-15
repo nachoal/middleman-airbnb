@@ -1,0 +1,9 @@
+<h1 class="text-center">This template is built by:</h1>
+<ul class="list-inline text-center">
+  <% ["nachoal", "joyhope1"].each do |gh_username| %>
+    <li>
+      <%= image_tag "#{gh_username}.png", class: "img-circle avatar-small"  %>
+      <h3><i class="fab fa-github"> </i><%= gh_username %></h3>
+    </li>
+  <% end %>
+</ul>
